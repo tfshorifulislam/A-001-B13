@@ -20,6 +20,22 @@
     border-radius: 4px;
     background-color: #469165;
 }
+.hero-btn{
+    display: flex;
+    gap: 16px;
+}
+.btn--hero{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn--hero2{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
 
 /* main style */
 
@@ -51,3 +67,52 @@ nav ul li a{
 }
 /* header end */
 
+/* hero start */
+.hero{
+    background-image: url("./images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.earlyaccess{
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+
+.earlyaccess h5{
+    font-size: 16px;
+    font-weight: 5400;
+    color: #469165;
+    display: flex;
+    gap: 6px;
+}
+
+.hero h1{
+    font-size: 72px;
+    line-height: 84px;
+    color: white;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.hero p{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* hero end */
