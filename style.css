@@ -22,14 +22,14 @@
     display: flex;
     gap: 16px;
 }
-.btn--hero{
+.btn--primary{
     padding: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.btn--hero2{
+.btn--secondary{
     border: 1px solid white;
     background-color: transparent;
 }
@@ -230,4 +230,87 @@ nav ul li a{
     display: flex;
     gap: 10px;
     margin-bottom: 16px;
+}
+/* solution section end */
+
+/* early-access section start */
+.early-access{
+    padding: 80px 40px;
+
+}
+
+.early-access-container{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+.early-access-container h2{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.early-access-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.early-access-container span{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+/* early-access section end */
+
+/* footer section start */
+footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.socials-icon{
+    display: flex;
+    flex-direction: column;
+}
+.socials-icon h5{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+    max-width: 20px;
+}
+
+footer span{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+
 }
