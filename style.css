@@ -114,7 +114,7 @@ nav ul li a{
 }
 /* hero end */
 
-
+/* note section start */
 .note{
     display: flex;
     flex-direction: column;
@@ -174,4 +174,60 @@ nav ul li a{
     line-height: 20px;
     color: #627382;
     max-width: 274px;
+}
+
+/* note section end */
+
+/* solution section start */
+.solution{
+    padding: 120px;
+    
+}
+
+.solution-container{
+    display: flex;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.solution-container img{
+    max-width: 600px;
+}
+
+.solution-text{
+    max-width: 700px;
+}
+
+.solution-text h5{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.solution-text h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution-text ul{
+    list-style: none;
+}
+
+.solution-text ul li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
 }
