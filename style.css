@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -114,5 +112,66 @@ nav ul li a{
     margin-bottom: 32px;
     text-align: center;
 }
-
 /* hero end */
+
+
+.note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.note-heading h2{
+    margin-top: 36px;
+    margin-bottom: 16px;
+    font-size: 48px;
+    color: #001931;
+}
+
+.note-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.note-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1360px;
+    gap: 24px;
+}
+
+.card-info{
+    max-width: 322px;
+    padding: 69.5px 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 #00000059;
+
+}
+
+.card-info img{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.card-info h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 274px;
+}
